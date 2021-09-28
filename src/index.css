@@ -201,8 +201,7 @@ h6 {
 .midContainer {
   width: 1110px;
   height: 474px;
-  /* border: solid 2px black; */
-	margin: 300px 25%;
+	margin: 10rem 25%;
 }
 
 .midContainer h1 {
@@ -212,10 +211,8 @@ h6 {
 .card {
   margin: 10px;
   width: 350px;
-  height: 250px;
+
 }
-
-
 
 .col3 {
 	display: flex;
@@ -235,4 +232,40 @@ h6 {
 
 .card-body p {
 	color: #837d87;
+}
+
+.bottomContainer {
+	margin: 2rem 9rem 5rem 9rem;
+	min-height: 250px;
+	background-color: hsl(256, 26%, 20%);
+	background-image: url(./images/desktop/bg-pattern-how-we-work-desktop.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	display: flex;
+	align-content: center;
+	text-align: left;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.bottomBanner {
+	color: #ffffff;
+	font-size: 2rem;
+	align-self: center;
+	padding: 0 7rem 0 5rem;
+	line-height: 3rem;
+	
+}
+
+.bottomBtn {
+	border: 2px solid #ffffff;
+	padding: 12px 30px;
+	color:black;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	height: 50px;
 }
