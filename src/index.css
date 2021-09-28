@@ -41,6 +41,7 @@ h6 {
 	padding: 20px;
 	height: 80px;
 	width: 100%;
+	
 }
 
 .menu-logo img {
@@ -195,4 +196,43 @@ h6 {
 	bottom: -420px;
 	left: 0px;
 	width: 12vw;
+}
+
+.midContainer {
+  width: 1110px;
+  height: 474px;
+  /* border: solid 2px black; */
+	margin: 300px 25%;
+}
+
+.midContainer h1 {
+	font-size: 72px;
+}
+
+.card {
+  margin: 10px;
+  width: 350px;
+  height: 250px;
+}
+
+
+
+.col3 {
+	display: flex;
+	margin-top: 100px;
+
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+	row-gap: 25px;
+  min-height: 250px;
+	text-align: left;
+}
+
+.card-body p {
+	color: #837d87;
 }

@@ -1,7 +1,7 @@
 import './App.css';
-import Card from './components/Card';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
+import Card from './components/Card.jsx';
+import Header from './components/Header.jsx';
+import Navbar from './components/Navbar.jsx';
 
 function App() {
   return (
