@@ -30,6 +30,10 @@ h6 {
 	font-family: 'DM Serif Display', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* header */
 
 .menu-container {
@@ -41,7 +45,6 @@ h6 {
 	padding: 20px;
 	height: 80px;
 	width: 100%;
-	
 }
 
 .menu-logo img {
@@ -138,11 +141,9 @@ h6 {
 	align-items: center;
 	align-content: flex-start;
 	position: relative;
-	
 }
 
 .topTxt {
-	/*  */
 	width: 540px;
 	height: 304px;
 	margin-left: 250px;
@@ -211,13 +212,11 @@ h6 {
 .card {
   margin: 10px;
   width: 350px;
-
 }
 
 .col3 {
 	display: flex;
 	margin-top: 100px;
-
 }
 
 .card-body {
@@ -255,7 +254,6 @@ h6 {
 	align-self: center;
 	padding: 0 7rem 0 5rem;
 	line-height: 3rem;
-	
 }
 
 .bottomBtn {
@@ -271,34 +269,57 @@ h6 {
 }
 
 footer {
-	background-image: url(./images/desktop/bg-pattern-footer-desktop.svg);
+	background-image: url(./images/desktop/bg-pattern-footer-desktop.svg) ;
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #f3ecec;
-	min-height: 25rem;
-	
+	min-height: 20rem;
 }
 
-/* .footerLogo {
-	
-	margin: 5rem 0 0 9rem;
-} */
+.footerLogo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 2rem;
+}
 
 .footerIcon {
-
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
 	padding: 10px 3px 0 3px;
-	margin-right: 7rem;
-	
 }
 
 .icon {
-
 	display: flex;
 	flex-direction: row-reverse ; 
-	margin: 0 20px 0 5px; 
-	
+	padding: 0 20px 0 5px; 
+}
+
+.footerText {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 5rem;
+}
+
+footer, ul, li {
+	list-style-type: none;
+}
+
+.footerUl {
+	text-align: center;
+	line-height: 1.7rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.footerUl>li:first-child {
+	color: var(--Dark-Grayish-Violet);
+	padding-bottom: 1.5rem;
+}
+
+.footerUl>li>a {
+	color: #585757;
 }
