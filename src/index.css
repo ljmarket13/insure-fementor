@@ -269,3 +269,36 @@ h6 {
 	letter-spacing: 1.5px;
 	height: 50px;
 }
+
+footer {
+	background-image: url(./images/desktop/bg-pattern-footer-desktop.svg);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #f3ecec;
+	min-height: 25rem;
+	
+}
+
+/* .footerLogo {
+	
+	margin: 5rem 0 0 9rem;
+} */
+
+.footerIcon {
+
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	padding: 10px 3px 0 3px;
+	margin-right: 7rem;
+	
+}
+
+.icon {
+
+	display: flex;
+	flex-direction: row-reverse ; 
+	margin: 0 20px 0 5px; 
+	
+}
